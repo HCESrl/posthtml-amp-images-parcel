@@ -1,12 +1,12 @@
 {
-  "name": "posthtml-plugin",
-  "description": "PostHTML plugin description",
-  "version": "1.0.0",
-  "author": "PostHTML",
+  "name": "posthtml-amp-images-parcel",
+  "description": "PostHTML plugin for adding the appropriate URL to images in parcel",
+  "version": "0.0.1",
+  "author": "Paolo Mioni",
   "ava": {
     "verbose": "true"
   },
-  "bugs": "https://github.com/posthtml/posthtml-plugin-boilerplate/issues",
+  "bugs": "https://github.com/HCESrl/posthtml-amp-images-parcel/issues",
   "dependencies": {
     "posthtml": "^0.9.0"
   },
@@ -22,15 +22,17 @@
   "engines": {
     "node": ">=4"
   },
-  "homepage": "https://github.com/posthtml/posthtml-plugin-boilerplate",
+  "homepage": "https://github.com/HCESrl/posthtml-amp-images-parcel",
   "keywords": [
     "html",
     "posthtml",
-    "posthtml-plugin"
+    "posthtml-plugin",
+    "amp",
+    "parcel"
   ],
   "license": "MIT",
   "main": "lib",
-  "repository": "posthtml/posthtml-plugin-boilerplate",
+  "repository": "HCESrl/posthtml-amp-images-parcel",
   "scripts": {
     "commitmsg": "conventional-changelog-lint -p angular -e",
     "lint": "standard | snazzy",
